@@ -1,20 +1,14 @@
-# Wine Quality Analysis and Predictive Modeling
+# Wine Quality Analysis and Preprocessing
 
 ## Overview
-This repository explores the factors influencing wine quality using data analysis and predictive modeling techniques. We analyze the Wine Quality dataset from the UCI Machine Learning Repository, which includes chemical properties of red and white wines along with their quality ratings.
+This repository contains a Jupyter Notebook (`wine_quality_analysis_and_preprocessing.ipynb`) that explores the factors influencing wine quality through data analysis and preprocessing techniques. The analysis focuses on the Wine Quality dataset from the UCI Machine Learning Repository, which includes chemical properties of red and white wines along with their quality ratings.
 
 ## Motivation
 Understanding the chemical characteristics that contribute to high-quality wine is crucial for wine producers and enthusiasts alike. This analysis aims to uncover insights that can enhance production processes and quality assessment.
 
-## Repository Contents
-- **Notebooks**: Jupyter notebooks containing detailed analysis and code.
-  - `wine_quality_analysis.ipynb`: Exploratory data analysis (EDA), correlation analysis, and feature selection.
-  - `wine_quality_preprocessing.ipynb`: Data cleaning, preprocessing, and feature scaling.
-  - `wine_quality_modeling.ipynb`: Machine learning models for predicting wine quality.
+## Notebook Content
+The Jupyter Notebook (`wine_quality_analysis_and_preprocessing.ipynb`) covers the following steps:
 
-- **Data**: Contains the Wine Quality dataset (`winequality.csv`) sourced from the UCI Machine Learning Repository.
-
-## Analysis Steps
 1. **Exploratory Data Analysis (EDA)**:
    - Visualize distributions of chemical properties.
    - Explore relationships between features and wine quality.
@@ -27,23 +21,17 @@ Understanding the chemical characteristics that contribute to high-quality wine 
 3. **Correlation Analysis**:
    - Identify correlations between features and wine quality using heatmaps and statistical tests.
 
-4. **Machine Learning Models**:
-   - Build and evaluate models to predict wine quality based on selected features.
-
 ## Results and Insights
 - Discover which chemical properties most strongly influence wine quality.
-- Evaluate the performance of machine learning models in predicting wine quality ratings.
-- Provide actionable insights for wine producers to improve production processes and quality control.
+- Prepare the dataset for further analysis or modeling tasks.
 
 ## Getting Started
-To get started with the analysis:
-1. Clone this repository: `git clone https://github.com/your-username/wine-quality-analysis.git`
-2. Navigate to the repository: `cd wine-quality-analysis`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Open and run the Jupyter notebooks in the `notebooks/` directory to reproduce the analysis.
+To replicate the analysis:
+1. Clone this repository: `git clone https://github.com/rouzbehzarin/wine-quality-analysis.git`
+2. Open and run `wine_quality_analysis_and_preprocessing.ipynb` in Jupyter Notebook or JupyterLab.
 
-## Contributing
-Contributions are welcome! If you have suggestions, enhancements, or want to report issues, please open an issue or submit a pull request.
+## Data Source
+The Wine Quality dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wine+Quality).
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -55,4 +43,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 By following this README structure, stakeholders and collaborators can understand the purpose, content, and steps involved in your wine quality analysis project on GitHub.
-

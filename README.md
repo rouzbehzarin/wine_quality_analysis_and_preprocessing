@@ -25,11 +25,6 @@ The Jupyter Notebook (`wine_quality_analysis_and_preprocessing.ipynb`) covers th
 - Discover which chemical properties most strongly influence wine quality.
 - Prepare the dataset for further analysis or modeling tasks.
 
-## Getting Started
-To replicate the analysis:
-1. Clone this repository: `git clone https://github.com/rouzbehzarin/wine_quality_analysis_and_preprocessing.git`
-2. Open and run `wine_quality_analysis_and_preprocessing.ipynb` in Jupyter Notebook or JupyterLab.
-
 ## Data Source
 The Wine Quality dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wine+Quality).
 
